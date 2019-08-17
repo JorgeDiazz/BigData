@@ -1,10 +1,10 @@
-import sys, regex
+import sys, re
 
 word2 = ''
 count = 0
 
 for word1 in sys.stdin:
-	word1 = regex.sub('[^\w\s]', "", word1.split(',')[0])
+	word1 = re.sub('[^\w\s]', "", word1.split(',')[0])
 	if (word1):
 		if (word1 == word2):
 			count += 1
