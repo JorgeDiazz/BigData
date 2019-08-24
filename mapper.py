@@ -1,6 +1,6 @@
 import sys
 
 for line in sys.stdin:
-	words = line.split()
+	words = line.lower().split()
 	for key in words:
-	    print("%s,%d" %(key,1))
+	    print(key)
