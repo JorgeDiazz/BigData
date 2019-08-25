@@ -1,4 +1,4 @@
-import sys, re
+import sys
 
 word2 = ''
 count = 0
