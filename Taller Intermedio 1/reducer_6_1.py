@@ -23,7 +23,6 @@ for line in sys.stdin:
 		print total_counties, cities_in_county2
 		total_counties = 1
 
-
 print total_counties, cities_in_county1
 
 
